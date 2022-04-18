@@ -125,4 +125,8 @@ public class ImageTestApplication {
             return "";
         }
     }
+
+    public static String getSomething() {
+        return "Hello world!";
+    }
 }
