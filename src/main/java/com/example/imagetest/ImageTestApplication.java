@@ -113,16 +113,4 @@ public class ImageTestApplication {
         System.out.print("written");
         return image;
     }
-
-    public static int generateIntNumber(int max) {
-        return new Random().nextInt(max);
-    }
-
-    public static String getSubString(int start, int end, String str) {
-        if (!str.isEmpty()) {
-            return str.substring(start, end);
-        } else {
-            return "";
-        }
-    }
 }
