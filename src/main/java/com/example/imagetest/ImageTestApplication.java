@@ -113,4 +113,11 @@ public class ImageTestApplication {
         return image;
     }
 
+    public static String getSubString(int start, int end, String str) {
+        if (!str.isEmpty()) {
+            return str.substring(start, end);
+        } else {
+            return "";
+        }
+    }
 }
