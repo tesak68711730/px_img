@@ -13,6 +13,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
 
 @SpringBootApplication
 public class ImageTestApplication {
@@ -113,4 +114,7 @@ public class ImageTestApplication {
         return image;
     }
 
+    public static int generateIntNumber(int max) {
+        return new Random().nextInt(max);
+    }
 }
